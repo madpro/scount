@@ -1,3 +1,25 @@
-// Place all the styles related to the task controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	background-image:  url(site-bg.jpg); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+	background-attachment: fixed;
+	height:100%;
+	border:1px solid #85a5c2;
+	
+}
+
+#header {
+	position: relative;
+	margin: 0px auto;
+    width:1155px;
+    height:95px;
+    border:1px solid #85a5c2;
+    clear:both;
+    
+    
+}
+
+#content {
+	
+    
+}
