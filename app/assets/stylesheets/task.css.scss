@@ -1,25 +1,40 @@
 body {
-	background-image:  url(site-bg.jpg); 
+	background-image: url(site-bg.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% 100%; 
+	background-size: 100% 100%;
 	background-attachment: fixed;
-	height:100%;
-	border:1px solid #85a5c2;
-	
+	padding:0px;
+	margin:0px;
 }
 
 #header {
-	position: relative;
 	margin: 0px auto;
     width:1155px;
     height:95px;
     border:1px solid #85a5c2;
     clear:both;
-    
-    
+}
+
+#logo {
+	background: url(scout.1.png) center no-repeat;
+	width: 110px;
+	height: 50px;
+	margin: 22px;
 }
 
 #content {
-	
+	margin: 0px auto;
+    width:1155px;
+    height:800px;
+    border:1px solid #85a5c2;
+    clear:both;
     
+}
+
+#footer {
+	margin: 0px auto;
+    width:1155px;
+    height:95px;
+    border:1px solid #85a5c2;
+    clear:both;
 }
