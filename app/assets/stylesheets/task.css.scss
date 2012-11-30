@@ -97,9 +97,11 @@ a {
 #content {
   margin: 0px auto;
   width:1155px;
-  height:400px;
-  border:1px solid #85a5c2;
-  clear:both;
+  height:800px;
+  max-width: 1155px;
+  border:1px solid #98a4af;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 #footer {
