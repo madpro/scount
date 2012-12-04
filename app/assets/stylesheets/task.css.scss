@@ -99,9 +99,64 @@ a {
   width:1155px;
   height:800px;
   max-width: 1155px;
-  border:1px solid #98a4af;
   border-radius: 4px;
   box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  background-color: #ffffff;
+  display: table;
+}
+
+#contentheader {
+  height: 40px;
+  display: block;
+  background-color: #e6e6e6;
+}
+
+.contentheader {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+
+#contentheader ul li {
+  list-style: none;
+  display: inline;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+#contentheader a {
+  padding: 10px;
+  display: block;
+  border-right: 1px solid #85a5c2;
+  color: black;
+}
+
+#contentheaderlink {
+  height: 35px;
+  display: block;
+}
+
+#contentheaderlink ul li {
+  list-style: none;
+  display: inline;
+  float: left;
+  margin: 5px;
+}
+
+#contentheaderlink a {
+  padding: 5px 15px;
+  display: block;
+  font-size: 12px;
+}
+
+#contentheaderlink1 {
+  border-right: 1px solid #85a5c2 ;
+  color: #3790d3;
+}
+
+#contentheaderlink2 {
+  color: black;
 }
 
 #footer {
