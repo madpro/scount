@@ -109,6 +109,10 @@ a {
   height: 40px;
   display: block;
   background-color: #e6e6e6;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-bottomright: 0px;
 }
 
 .contentheader {
@@ -170,15 +174,40 @@ a {
   width: 100%;
   background-color: #d1e7f0;
   border: 1px solid #e1e1e1;
-
 }
 
 #heading p {
   text-transform: capitalize;
   font-weight: bold;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   margin: 10px 0px;
+}
+
+#contentmenusearch {
+  display: block;
+  margin: 10px;
+  height: 50px;
+  width: 280px;
+}
+
+#contentmenuinput {
+  margin-right: 0px;
+  font-size: 17px;
+}
+
+#contentmenuinput_image {
+  float: right;
+  background: url(search-icon.png) no-repeat;
+  width: 21px;
+  height: 21px;
+  margin-right: 5px;
+}
+
+#contentmenuinput_checkbox p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 10px;
 }
 
 #footer {
