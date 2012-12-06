@@ -277,7 +277,6 @@ a {
   margin-right: 8px;
   border-top: 3px solid #dddddd;
   border-left: 3px solid #dddddd;
-  border: 1px solid red;
 }
 
 #contentDetailsHeader {
@@ -296,7 +295,6 @@ a {
 }
 
 #contentDetailsLeftBlock {
-  border: 1px solid red;
   float: left;
   width: 271px;
   height: 420px;
@@ -305,7 +303,6 @@ a {
 #contentDetailsLeftBlockImage {
   width: 100%;
   height: 180px;
-  border-bottom: 1px solid green;
 }
 
 #contentDetailsLeftBlockImage #avatarBorder {
@@ -322,6 +319,55 @@ a {
   height: 150px;
   margin: 3px;
   border-radius: 7px;
+}
+
+#contentDetailsLeftBlockContinfo {
+  width: auto;
+  margin: 0px 10px;
+  height: 227px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+#contentDetailsLeftBlockContinfo #ContInfo {
+  width: auto;
+  height: 20px;
+  background-color: #3996d4;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.contactInfo {
+  font-weight: bold;
+}
+
+#ContInfo p {
+  color: #ffffff;
+  margin: 0px;
+  text-transform: capitalize;
+  padding-left: 30px;
+  font-size: 15px;
+}
+
+#ContInfoField ul {
+  list-style: none;
+  margin: 0px;
+  padding-left: 10px;
+}
+
+#ContInfoField ul li {
+  margin: 10px 0px 15px 0px;
+}
+
+#ContInfoField ul li p {
+  margin:0px;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+#ContInfoField ul li p a {
+  text-transform: none;
+  font-size: 13px;
+  color: #087bcd;
 }
 
 #contentDetailsRightBlock {
