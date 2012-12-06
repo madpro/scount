@@ -407,7 +407,28 @@ a {
   width: 238px;
   height: 250px;
   float: right;
-  border: 1px solid yellow;
+}
+
+#formButton {
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.rightBlockButton {
+  width: 228px;
+  height: 30px;
+  margin-bottom: 5px;
+  background: #cee9f2; /* Old browsers */
+  background: -moz-linear-gradient(top, #cee9f2 0%, #a0c2df 50%, #207cca 100%, #9ec0de 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cee9f2), color-stop(50%,#a0c2df), color-stop(100%,#207cca), color-stop(100%,#9ec0de)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #cee9f2 0%,#a0c2df 50%,#207cca 100%,#9ec0de 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #cee9f2 0%,#a0c2df 50%,#207cca 100%,#9ec0de 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #cee9f2 0%,#a0c2df 50%,#207cca 100%,#9ec0de 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #cee9f2 0%,#a0c2df 50%,#207cca 100%,#9ec0de 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cee9f2', endColorstr='#9ec0de',GradientType=0 ); /* IE6-9 */
+  border-radius: 5px ;
+  border: 1px solid #DEDEDE;
+  color: black;
 }
 
 #rightBlockInfo {
