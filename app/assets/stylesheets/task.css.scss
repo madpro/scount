@@ -263,10 +263,78 @@ a {
 }
 
 #coachCatalog {
-  width: 939px;
+  display: block;
+  width: 925px;
   height: 251px;
   float: right;
+  margin: 0px 8px 3px 0px;
+  border-left: 3px solid #dddddd;
+  border-bottom: 3px solid #dddddd;
+}
+
+#catalogHeader {
+  float: left;
+  width: 671px;
+  height: 36px;
+  display: block;
+}
+
+#catalogHeader p {
+  text-transform: capitalize;
+  margin: 8px 15px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#catalogRecom {
+  float: right;
+  width: 250px;
+  height: 63px;
+  display: block;
+}
+
+#catalogRecomBlock {
+  float: left;
+  width: 205px;
+  height: 63px;
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+  background-color: #fafad4;
+}
+
+#catalogRecomBlock p {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 7px 6px;
+  font-size: 13px;
+}
+
+#catalogRecomBlock a {
+  color: #007fb9;
+}
+
+#catalogRecomImage {
+  float: right;
+  margin-top: 8px;
+  width: 20px;
+  height: 58px;
+  background: url("about.gif") no-repeat;
+}
+
+
+#catalogButton {
+  float: left;
+  width: 671px;
+  height: 30px;
+  border: 1px solid navy;
+  display: block;
+}
+
+#catalogTable {
+  width: 925px;
+  height: 175px;
   border: 1px solid red;
+  display: inline-block;
 }
 
 #contentDetails {
