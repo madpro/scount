@@ -325,7 +325,7 @@ a {
 #catalogButton {
   float: left;
   width: 671px;
-  height: 30px;
+  height: 33px;
   border: 1px solid navy;
   display: block;
 }
@@ -333,8 +333,110 @@ a {
 #catalogTable {
   width: 925px;
   height: 175px;
-  border: 1px solid red;
+  //border: 1px solid red;
   display: inline-block;
+}
+
+#catalogTableHeader {
+  float: left;
+  width: 450px;
+  height: 40px;
+}
+
+#catalogTableHeader p {
+  margin: 10px;
+  text-transform: capitalize;
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#catalogTableButton {
+  float: right;
+  width: 471px;
+  height: 40px;
+}
+
+#catalogTableButton input {
+  float: right;
+  font-size: 13px;
+  margin: 8px 5px 5px 0px;
+  background: #cee9f2; /* Old browsers */
+  background: -moz-linear-gradient(top, #cee9f2 0%, #9ec0de 36%, #9ec0de 51%, #9ec0de 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cee9f2), color-stop(36%,#9ec0de), color-stop(51%,#9ec0de), color-stop(100%,#9ec0de)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #cee9f2 0%,#9ec0de 36%,#9ec0de 51%,#9ec0de 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #cee9f2 0%,#9ec0de 36%,#9ec0de 51%,#9ec0de 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #cee9f2 0%,#9ec0de 36%,#9ec0de 51%,#9ec0de 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #cee9f2 0%,#9ec0de 36%,#9ec0de 51%,#9ec0de 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cee9f2', endColorstr='#9ec0de',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #DEDEDE;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#table {
+  width: 910px;
+  height: 130px;
+  border: 1px solid navy;
+  border: 1px solid #dddddd;
+  margin: 0px 10px;
+  text-align: center;
+}
+
+#table th {
+  background-color: #e6f1f5;
+  text-transform: capitalize;
+}
+
+#table, td,th {
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+
+#table tr, th, td  {
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+}
+
+#inCompCatal {
+  width: 85px;
+}
+
+.tableColor {
+  color: #66bbe5;
+  font-weight: bold;
+}
+
+.tableColorActions {
+  color: #66bbe5;
+}
+
+.tableIndust {
+  font-weight: bold;
+}
+.tableFon {
+  background-color: #f3f3f3;
+}
+
+.sendMesImage {
+  background: url("envelope.png") no-repeat;
+  float: left;
+  width: 15px;
+  height: 12px;
+  margin: 2px;
+}
+
+.selCoachImage {
+  background: url("completed.png") no-repeat;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin: 0px 2px;
+}
+
+.inCompCatal {
+  text-align: right;
+  font-weight: bold;
 }
 
 #contentDetails {
