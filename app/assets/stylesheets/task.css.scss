@@ -324,10 +324,25 @@ a {
 
 #catalogButton {
   float: left;
-  width: 671px;
+  width: 660px;
   height: 33px;
-  border: 1px solid navy;
   display: block;
+  margin-left: 10px;
+}
+
+#catalogButton input {
+  font-size: 17px;
+  margin: 10px 0px;
+  background: #fcedc8; /* Old browsers */
+  background: -moz-linear-gradient(top, #fcedc8 0%, #fcedc8 0%, #ffffff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcedc8), color-stop(0%,#fcedc8), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fcedc8 0%,#fcedc8 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fcedc8 0%,#fcedc8 0%,#ffffff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fcedc8 0%,#fcedc8 0%,#ffffff 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #fcedc8 0%,#fcedc8 0%,#ffffff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcedc8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #DEDEDE;
+  border-radius: 3px;
 }
 
 #catalogTable {
@@ -339,7 +354,7 @@ a {
 
 #catalogTableHeader {
   float: left;
-  width: 450px;
+  width: 200px;
   height: 40px;
 }
 
@@ -353,24 +368,24 @@ a {
 
 #catalogTableButton {
   float: right;
-  width: 471px;
+  width: 721px;
   height: 40px;
 }
 
 #catalogTableButton input {
   float: right;
-  font-size: 13px;
+  font-size: 16px;
   margin: 8px 5px 5px 0px;
   background: #cee9f2; /* Old browsers */
-  background: -moz-linear-gradient(top, #cee9f2 0%, #9ec0de 36%, #9ec0de 51%, #9ec0de 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cee9f2), color-stop(36%,#9ec0de), color-stop(51%,#9ec0de), color-stop(100%,#9ec0de)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #cee9f2 0%,#9ec0de 36%,#9ec0de 51%,#9ec0de 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #cee9f2 0%,#9ec0de 36%,#9ec0de 51%,#9ec0de 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #cee9f2 0%,#9ec0de 36%,#9ec0de 51%,#9ec0de 100%); /* IE10+ */
-  background: linear-gradient(to bottom, #cee9f2 0%,#9ec0de 36%,#9ec0de 51%,#9ec0de 100%); /* W3C */
+  background: -moz-linear-gradient(top, #cee9f2 0%, #9ec0de 50%, #9ec0de 58%, #9ec0de 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cee9f2), color-stop(50%,#9ec0de), color-stop(58%,#9ec0de), color-stop(100%,#9ec0de)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #cee9f2 0%,#9ec0de 50%,#9ec0de 58%,#9ec0de 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #cee9f2 0%,#9ec0de 50%,#9ec0de 58%,#9ec0de 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #cee9f2 0%,#9ec0de 50%,#9ec0de 58%,#9ec0de 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #cee9f2 0%,#9ec0de 50%,#9ec0de 58%,#9ec0de 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cee9f2', endColorstr='#9ec0de',GradientType=0 ); /* IE6-9 */
   border: 1px solid #DEDEDE;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
 }
 
 #table {
@@ -595,7 +610,7 @@ a {
   background: -ms-linear-gradient(top, #cee9f2 0%,#a0c2df 50%,#207cca 100%,#9ec0de 100%); /* IE10+ */
   background: linear-gradient(to bottom, #cee9f2 0%,#a0c2df 50%,#207cca 100%,#9ec0de 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cee9f2', endColorstr='#9ec0de',GradientType=0 ); /* IE6-9 */
-  border-radius: 5px ;
+  border-radius: 5px;
   border: 1px solid #DEDEDE;
   color: black;
 }
