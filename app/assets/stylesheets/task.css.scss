@@ -67,18 +67,22 @@ a {
   padding: 0px;
   margin: 0px;
   display: inline-block;
- }
+}
 
 #input_search {
   float: right;
 }
 
+#searchBlock {
+  float: left;
+}
+
 #search_image {
   float: right;
   background: url(search-icon.png) no-repeat;
-  width: 21px;
-  height: 21px;
-  margin-left: 10px;
+  width: 25px;
+  height: 25px;
+  margin: 1px 0px 0px 10px;
 }
 
 #search_link {
@@ -281,7 +285,7 @@ a {
 
 #catalogHeader p {
   text-transform: capitalize;
-  margin: 8px 15px;
+  margin: 10px 15px;
   font-size: 17px;
   font-weight: 500;
 }
@@ -300,6 +304,7 @@ a {
   border: 2px solid #dddddd;
   border-radius: 4px;
   background-color: #fafad4;
+  margin-top: 5px;
 }
 
 #catalogRecomBlock p {
