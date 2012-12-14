@@ -236,15 +236,63 @@ a {
 
 #menuList ul li {
   border: 1px solid white;
-  background-image: url(ui-bg_gloss-wave_35_f6a828_500x100.png);
+  background: #facc61; /* Old browsers */
+  background: -moz-linear-gradient(top,  #facc61 0%, #fad98a 50%, #fad98a 50%, #fae8b6 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#facc61), color-stop(50%,#fad98a), color-stop(50%,#fad98a), color-stop(100%,#fae8b6)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #facc61 0%,#fad98a 50%,#fad98a 50%,#fae8b6 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #facc61 0%,#fad98a 50%,#fad98a 50%,#fae8b6 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #facc61 0%,#fad98a 50%,#fad98a 50%,#fae8b6 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #facc61 0%,#fad98a 50%,#fad98a 50%,#fae8b6 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#facc61', endColorstr='#fae8b6',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x;
   background-size: contain;
-  background-attachment: fixed;
   box-shadow: 0 0 15px white;
-  padding-left: 10px ;
+  padding-left: 10px;
+  li { background: white;}
 }
 
 #menuList ul li a {
   color: black;
+}
+
+#menuList ul li ul {
+  display: none;
+  list-style: none;
+  font-size: 14px;
+}
+
+#menuList ul li ul.menuListUL {
+  background-color: #ffffff;
+  margin-left: -10px;
+  border: none;
+}
+
+#menuList li:hover ul {
+  display: block;
+}
+
+#menuList #location p{
+  width: 50px;
+  margin: 5px 0px;
+}
+
+#menuList #location #locationLi1 {
+  float: left;
+  height: 60px;
+  width:120px;
+  padding: 0;
+  padding-left: 10px;
+}
+
+#menuList #location #locationLi2 {
+  float: right;
+  height: 60px;
+  width:73px;
+  padding: 0;
+}
+
+#menuList #location .locSelect {
+  font-size: 14px;
 }
 
 #contentMenuButton {

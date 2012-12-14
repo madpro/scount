@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<title>Task</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" href="assets/stylesheets/task.css.scss" type="text/css">
+        <!--<script src="/assets/javascripts/task.js" type="text/javascript" charset="utf-8"></script>-->
 	</head>
 	<body>
 		<div id = "header">
@@ -72,12 +73,61 @@
                 </div>
                 <div id="menuList">
                     <ul>
-                      <li><a href="#">coaching services</a></li>
-                      <li><a href="#">industry experience</a></li>
-                      <li><a href="#">client level</a></li>
-                      <li><a href="#">location</a></li>
-                      <li><a href="#">language</a></li>
-                      <li><a href="#">hourly rate</a></li>
+                      <li><a href="#" onclick="openMenu('sub_menu_1');return(false)">coaching services</a>
+                        <ul id="sub_menu_1" class="menuListUL">
+                          <li><input type="checkbox">assimilation</li>
+                          <li><input type="checkbox">career development</li>
+                          <li><input type="checkbox">competency</li>
+                          <li><input type="checkbox">development</li>
+                        </ul>
+                      </li>
+                      <li><a href="#" onclick="openMenu('sub_menu_2');return(false)">industry experience</a>
+                        <ul id="sub_menu_2" class="menuListUL">
+                          <li><input type="checkbox">Engineering</li>
+                          <li><input type="checkbox">Executive</li>
+                          <li><input type="checkbox">Insurance</li>
+                          <li><input type="checkbox">Manager</li>
+                        </ul>
+
+                      </li>
+                      <li><a href="#" onclick="openMenu('sub_menu_3');return(false)">client level</a>
+                        <ul id="sub_menu_3" class="menuListUL">
+                          <li><input type="radio" >Any Level</li>
+                          <li><input type="radio">CxO</li>
+                          <li><input type="radio">VP and above</li>
+                          <li><input type="radio">Director and above</li>
+                          <li><input type="radio">Manager and above</li>
+                        </ul>
+                      </li>
+                      <li id="location"><a href="#">location</a>
+                        <ul class="menuListUL">
+                            <li id="locationLi1">
+                              <p>City</p>
+                              <select class="locSelect">
+                                <option>San Francisco</option>
+                              </select>
+                            </li>
+                            <li id="locationLi2">
+                                <p>State</p>
+                                <select class="locSelect">
+                                    <option>SA</option>
+                                </select>
+                            </li>
+                        </ul>
+                      </li>
+                      <li><a href="#">language</a>
+                        <ul class="menuListUL">
+                          <li><input type="checkbox">English</li>
+                          <li><input type="checkbox">Ukraine</li>
+                          <li><input type="checkbox">Russia</li>
+                          <li><input type="checkbox">Germany</li>
+                        </ul>
+                      </li>
+                      <li><a href="#">hourly rate</a>
+                        <ul class="menuListUL">
+                          <li>This is section nil:)</li>
+                        </ul>
+                      </li>
                     </ul>
                 </div>
                 <div id="contentMenuButton">
@@ -238,4 +288,3 @@
 		</div>
 	</body>
 </html>
-
