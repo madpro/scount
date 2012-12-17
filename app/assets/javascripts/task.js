@@ -1,5 +1,5 @@
 
-var id_menu = new Array('sub_menu_1');
+var id_menu = new Array('sub_menu_1', 'sub_menu_2', 'sub_menu_3', 'sub_menu_4', 'sub_menu_5', 'sub_menu_6');
 startList = function allclose() {
   for (i=0; i < id_menu.length; i++){
   document.getElementById(id_menu[i]).style.display = "none";

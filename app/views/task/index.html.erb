@@ -4,7 +4,7 @@
 		<title>Task</title>
 	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" href="assets/stylesheets/task.css.scss" type="text/css">
-        <!--<script src="/assets/javascripts/task.js" type="text/javascript" charset="utf-8"></script>-->
+        <script src="/assets/javascripts/task.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		<div id = "header">
@@ -99,8 +99,8 @@
                           <li><input type="radio">Manager and above</li>
                         </ul>
                       </li>
-                      <li id="location"><a href="#">location</a>
-                        <ul class="menuListUL">
+                      <li id="location"><a href="#" onclick="openMenu('sub_menu_4');return(false)">location</a>
+                        <ul class="menuListUL" id="sub_menu_4">
                             <li id="locationLi1">
                               <p>City</p>
                               <select class="locSelect">
@@ -115,27 +115,28 @@
                             </li>
                         </ul>
                       </li>
-                      <li><a href="#">language</a>
-                        <ul class="menuListUL">
+                      <li><a href="#" onclick="openMenu('sub_menu_5');return(false)">language</a>
+                        <ul class="menuListUL" id="sub_menu_5">
                           <li><input type="checkbox">English</li>
                           <li><input type="checkbox">Ukraine</li>
                           <li><input type="checkbox">Russia</li>
                           <li><input type="checkbox">Germany</li>
                         </ul>
                       </li>
-                      <li><a href="#">hourly rate</a>
-                        <ul class="menuListUL">
+                      <li><a href="#" onclick="openMenu('sub_menu_6');return(false)">hourly rate</a>
+                        <ul class="menuListUL" id="sub_menu_6">
                           <li>This is section nil:)</li>
                         </ul>
                       </li>
+                      <li id="contentMenuButton">
+                        <div id="contentMenuButtonBlock">
+                          <input class="menuButton" type="submit" value="Apply">
+                          <input class="menuButton" type="reset" value="Clear">
+                        </div>
+                      </li>
                     </ul>
                 </div>
-                <div id="contentMenuButton">
-                    <input class="menuButton" type="submit" value="Apply">
-                    <input class="menuButton" type="reset" value="Clear">
-                </div>
             </div>
-
             <div id="coachCatalog">
                 <div id="catalogHeader">
                     <p>coach catalog: search results</p>
